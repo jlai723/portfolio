@@ -1,4 +1,167 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar */
+nav {
+    background: linear-gradient(to right, rgb(11, 134, 252) 50%, white 50%);
+}
+body > nav > div > div.main-nav.float-start > a {
+    margin-left: 45px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+}
+#navbarNavAltMarkup {
+    margin-right: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(11, 134, 252);
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+}
+
+/* Home Screen */
+.jumbotron {
+    height: 100%;
+    background: linear-gradient(to right, rgb(11, 134, 252) 50%, white 50%);
+}
+.jumbotron .container-fluid h1 {
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+}
+#hello {
+    color: white;
+    font-size: 10rem;
+    padding-top: 15%;
+}
+#there {
+    color: rgb(11, 134, 252);
+    font-size: 10rem;
+    padding-top: 30%;
+}
+
+/* About Me */
+.marketing {
+    padding-top: 80px;
+}
+#about > div.row.featurette {
+    max-height: 500px;
+}
+#about > div > div.col-md-6.order-md-1 > img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+.about-text {
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    color: rgb(11, 134, 252);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#about > div > div.col-md-6.order-md-2 {
+    font-family: 'Archivo', sans-serif;
+}
+#about > div > div.col-md-6.order-md-2 > p:nth-child(1) {
+    color: rgb(11, 134, 252);
+    font-weight: 600;
+}
+#about > div > div.col-md-6.order-md-2 > p.lead.text-end {
+    color: rgb(11, 134, 252);
+    font-weight: 600;
+}
+#about > div:nth-child(2) {
+    padding-bottom: 10px;
+    color: rgb(11, 134, 252);  
+}
+#about > div:nth-child(2) > h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+}
+
+/* Projects */
+.projects {
+    background-color: rgb(11, 134, 252);
+    background-size: cover;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#projects > figure > h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.card {
+    width: 300px;
+    height: 200px;
+    border: none;
+}
+.card-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-img-overlay {
+    width: 300px;
+    height: 200px;
+}
+.card-img-overlay:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.card-img-overlay h5 {
+    display: none;
+}
+.card-img-overlay:hover h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Contact Form */
 #contact {
+    padding-top: 60px;
+    padding-bottom: 100px;
     padding-left: 20%;
     padding-right: 20%;
+    font-family: 'Archivo', sans-serif;
+}
+#contact > figure > h1 {
+    color: rgb(11, 134, 252);
+    font-weight: 600;
+}
+.form-label {
+    color: rgb(11, 134, 252);
+}
+.form-control {
+    border: 2px solid rgb(11, 134, 252);
+}
+#fs-frm > button {
+    background-color: white;
+    color:rgb(11, 134, 252);
+    border: 2px solid rgb(11, 134, 252);
+    float: right;
+}
+#fs-frm > button:hover {
+    background-color: rgb(11, 134, 252);
+    color: white;
+    border: 2px solid white;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(11, 134, 252);
+}
+body > footer > div > svg.bi.bi-github {
+    padding-right: 15px;
+}
+body > footer > div > svg.bi.bi-linkedin {
+    padding-left: 15px;
 }
