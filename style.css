@@ -139,11 +139,13 @@ body > nav > div > div.main-nav.float-start > a:hover {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 60px;
+    padding-left: 4vw;
 }
 #projects > figure > h1 {
     font-family: 'Shadows Into Light', 'Archivo', sans-serif;
     font-weight: 600;
     color: white;
+    padding-right: 4vw;
 }
 .card {
     width: 300px;
